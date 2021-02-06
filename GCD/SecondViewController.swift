@@ -31,12 +31,16 @@ class SecondViewController: UIViewController {
 	fileprivate func fetchImage() {
 		activityIndicator.startAnimating()
 		imageURL = URL(string: "https://wallpapertag.com/wallpaper/full/7/5/3/129013-margot-robbie-harley-quinn-wallpaper-3200x2000-smartphone.jpg")
-		guard let url = imageURL,
-			  let imageData = try? Data(contentsOf: url)
-		else {
-			return
+		
+		let queue = DispatchQueue.global(qos: .utility)
+		queue.async { [weak self] in
+			guard let url = self?.imageURL,
+				  let imageData = try? Data(contentsOf: url)
+			else { return }
+			DispatchQueue.main.async {
+				self?.image = UIImage(data: imageData)
+			}
 		}
-		self.image = UIImage(data: imageData)
 	}
 
 }
