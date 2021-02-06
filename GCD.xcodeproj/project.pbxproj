@@ -13,6 +13,7 @@
 		FE11151425CEF7590097FA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE11151225CEF7590097FA3D /* Main.storyboard */; };
 		FE11151625CEF7590097FA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE11151525CEF7590097FA3D /* Assets.xcassets */; };
 		FE11151925CEF7590097FA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE11151725CEF7590097FA3D /* LaunchScreen.storyboard */; };
+		FE11152425CEFD190097FA3D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE11152325CEFD190097FA3D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE11151525CEF7590097FA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE11151825CEF7590097FA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE11151A25CEF7590097FA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE11152325CEFD190097FA3D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FE11150C25CEF7590097FA3D /* AppDelegate.swift */,
 				FE11150E25CEF7590097FA3D /* SceneDelegate.swift */,
 				FE11151025CEF7590097FA3D /* ViewController.swift */,
+				FE11152325CEFD190097FA3D /* SecondViewController.swift */,
 				FE11151225CEF7590097FA3D /* Main.storyboard */,
 				FE11151525CEF7590097FA3D /* Assets.xcassets */,
 				FE11151725CEF7590097FA3D /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE11152425CEFD190097FA3D /* SecondViewController.swift in Sources */,
 				FE11151125CEF7590097FA3D /* ViewController.swift in Sources */,
 				FE11150D25CEF7590097FA3D /* AppDelegate.swift in Sources */,
 				FE11150F25CEF7590097FA3D /* SceneDelegate.swift in Sources */,
